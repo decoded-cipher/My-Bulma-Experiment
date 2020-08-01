@@ -1,0 +1,15 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background-image: url('bg-img.jpg');
+}
+
+.hero-title {
+    font-size: 50px;
+}
+
+.hero-subtitle {
+    font-size: 30px;
+}
