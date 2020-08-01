@@ -13,3 +13,51 @@
 .hero-subtitle {
     font-size: 30px;
 }
+
+
+.main-content {
+    color: #3c4172;
+    background-size: cover;
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-me {
+    padding: 30px 0px 50px 0px;
+}
+
+.about-me .is-larger {
+    font-size: 1.2rem;
+}
+
+.right-image img {
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .main-content {
+        margin: 50px 100px;
+    }
+}
+
+@media (max-width: 599px) {
+    .main-content {
+        margin: 50px 20px;
+        padding: 50px 10px;
+        text-align: justify;
+    }
+
+    .about-links {
+        text-align: center;
+    }
+    .right-image img {
+        margin: auto;
+    }
+}
