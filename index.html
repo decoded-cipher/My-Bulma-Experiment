@@ -13,6 +13,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -34,7 +36,7 @@
       <div class="navbar-end">
         <a href="#hero" class="navbar-item">Home</a>
         <a href="#about-me" class="navbar-item">About</a>
-        <a class="navbar-item">Team</a>
+        <a href="#team" class="navbar-item">Team</a>
         <a class="navbar-item">Contact</a>
 
         <div class="navbar-item has-dropdown is-hoverable">
@@ -52,7 +54,7 @@
     </div>
   </nav>
 
-  <section id="hero" class="hero is-link is-fullheight-with-navbar">
+  <section id="hero" class="hero is-link is-fullheight-with-navbar section">
     <div class="hero-body ">
       <div class="container has-text-centered">
         <span class="has-text-grey-dark">Lorem Ipsum</span>
@@ -66,225 +68,292 @@
     </div>
   </section>
 
-  <div class="section">
-    <div class="main-content">
-      <div class="section-light about-me" id="about-me">
-        <div class="container">
-          <div class="column is-12 about-me">
-            <h1 class="title has-text-centered section-title">About Us</h1>
-          </div>
-          <div class="columns">
-            <div class="column is-7 has-vertically-aligned-content">
-              <p class="is-larger">
-                <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                  an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </strong>
-              </p>
-              <br />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+  <div class="main-content">
+    <div class="section-light" id="about-me">
+      <div class="container about-me">
+        <div class="column is-12">
+          <h1 class="title has-text-centered section-title">About Us</h1>
+        </div>
+        <div class="columns">
+          <div class="column is-7 has-vertically-aligned-content">
+            <p class="is-larger">
+              <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
                 an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </p>
-              <br />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
-              </p>
-              <br />
-              <div class="is-divider"></div>
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
-                    <strong>Give me a ring</strong>
-                  </p>
-                  <p class="subheading">
-                    123-456-7890
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>Email Me</strong>
-                  </p>
-                  <p class="subheading">
-                    hello@example.com
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>View my portfolio</strong>
-                  </p>
-                  <p class="subheading">
-                    example.com
-                  </p>
-                </div>
+              </strong>
+            </p>
+            <br />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+              an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <br />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+              an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              It has survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged.
+            </p>
+            <br />
+            <div class="is-divider"></div>
+            <div class="columns about-links">
+              <div class="column">
+                <p class="heading">
+                  <strong>Give me a ring</strong>
+                </p>
+                <p class="subheading">
+                  123-456-7890
+                </p>
+              </div>
+              <div class="column">
+                <p class="heading">
+                  <strong>Email Me</strong>
+                </p>
+                <p class="subheading">
+                  hello@example.com
+                </p>
+              </div>
+              <div class="column">
+                <p class="heading">
+                  <strong>View my portfolio</strong>
+                </p>
+                <p class="subheading">
+                  example.com
+                </p>
               </div>
             </div>
-            <div class="column is-5 right-image " data-aos="fade-left">
-              <img class="is-rounded" src="img/about-img.jpg" alt="" />
-            </div>
+          </div>
+          <div class="column is-5 right-image " data-aos="fade-left">
+            <img class="is-rounded" src="img/about-img.jpg" alt="" />
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="main-content">
-    <div class="container about-me has-text-centered">
-      <h2 class="title has-text-centered pt-6 section-title">Our Team</h2>
-      <p class="has-text-centered my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-        took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
-        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <div class="section">
+    <div class="main-content" id="team">
+      <div class="container has-text-centered">
+        <h1 class="title has-text-centered pt-6 section-title">Our Team</h1>
+        <p class="has-text-centered my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+          took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+          centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-      <div class="columns is-centered">
+        <div class="columns is-centered">
 
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img
-                  src="img/avatar_1.webp"
-                  alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Arjun Krishna</p>
-                  <p class="subtitle is-6">@decoded_cipher</p>
-                </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/avatar_1.webp" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Arjun Krishna</p>
+                    <p class="subtitle is-6">@decoded_cipher</p>
+                  </div>
+                </div>
 
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>lorem ipsum</a>.
-                <a href="#">#lorem</a>
-                <a href="#">#ipsum</a>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                  <a>lorem ipsum</a>.
+                  <a href="#">#lorem</a>
+                  <a href="#">#ipsum</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img
-                  src="img/avatar_1.webp"
-                  alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Jithin Shah</p>
-                  <p class="subtitle is-6">@waterloo</p>
-                </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/avatar_1.webp" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Jithin Shah</p>
+                    <p class="subtitle is-6">@waterloo</p>
+                  </div>
+                </div>
 
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>lorem ipsum</a>.
-                <a href="#">#lorem</a>
-                <a href="#">#ipsum</a>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                  <a>lorem ipsum</a>.
+                  <a href="#">#lorem</a>
+                  <a href="#">#ipsum</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img
-                  src="img/avatar-2.jpg"
-                  alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Laya Anna Lalan</p>
-                  <!-- <p class="subtitle is-6">@DysonThomas</p> -->
-                </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/avatar-2.jpg" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Laya Anna Lalan</p>
+                    <!-- <p class="subtitle is-6">@DysonThomas</p> -->
+                  </div>
+                </div>
 
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>lorem ipsum</a>.
-                <a href="#">#lorem</a>
-                <a href="#">#ipsum</a>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                  <a>lorem ipsum</a>.
+                  <a href="#">#lorem</a>
+                  <a href="#">#ipsum</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img
-                  src="img/avatar_1.webp"
-                  alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Dyson Thomas</p>
-                  <p class="subtitle is-6">@DysonThomas</p>
-                </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/avatar_1.webp" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Dyson Thomas</p>
+                    <p class="subtitle is-6">@DysonThomas</p>
+                  </div>
+                </div>
 
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>lorem ipsum</a>.
-                <a href="#">#lorem</a>
-                <a href="#">#ipsum</a>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                  <a>lorem ipsum</a>.
+                  <a href="#">#lorem</a>
+                  <a href="#">#ipsum</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img
-                  src="img/avatar_1.webp"
-                  alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Sandeep S</p>
-                  <p class="subtitle is-6">@ghostpirate</p>
-                </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/avatar_1.webp" alt="Placeholder image">
+                </figure>
               </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Sandeep S</p>
+                    <p class="subtitle is-6">@ghostpirate</p>
+                  </div>
+                </div>
 
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>lorem ipsum</a>.
-                <a href="#">#lorem</a>
-                <a href="#">#ipsum</a>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                  <a>lorem ipsum</a>.
+                  <a href="#">#lorem</a>
+                  <a href="#">#ipsum</a>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
 
       </div>
-
     </div>
-  </div> 
+  </div>
 
+
+  <div class="main-content contact" id="contact">
+    <div class="container about-me">
+      <div class="columns is-multiline">
+        <div class="column is-12">
+          <h1 class="title has-text-centered section-title">Contact Us</h1>
+        </div>
+        <div class="column is-8 is-offset-2">
+          <form>
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Enter your Name" />
+                <span class="icon is-small is-left">
+                  <i class="fa fa-user"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Enter your Email" />
+                <span class="icon is-small is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Type in your Message" name="Message"></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <button class="button submit-button">
+                  Submit&nbsp;&nbsp;
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>© Copyright 2020</strong> Designed by <a target="blank" href="https://arjunkrishna.in">Decoded_Cipher</a>.
+          <div class="social is-12">
+            <i class="fa fa-behance column"></i>
+            <i class="fa fa-instagram column"></i>
+            <i class="fa fa-twitter column"></i>
+            <i class="fa fa-linkedin column"></i>
+            <i class="fa fa-github column"></i>
+            <i class="fa fa-facebook column"></i>
+            <i class="fa fa-medium column"></i>
+            <i class="fa fa-dribbble column"></i>
+            <i class="fa fa-gitlab column"></i>
+            <i class="fa fa-slack column"></i>
+            <i class="fa fa-telegram column"></i>
+            <i class="fa fa-whatsapp column"></i>
+            <i class="fa fa-pinterest column"></i>
+            <i class="fa fa-youtube column"></i>
+
+          </div>
+          
+      </div>
+    </footer>
+
+  </div>
 
 </body>
 
