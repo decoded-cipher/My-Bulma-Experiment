@@ -57,7 +57,13 @@
     .about-links {
         text-align: center;
     }
+
     .right-image img {
         margin: auto;
     }
+}
+
+.section {
+    background-size: cover;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
